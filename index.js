@@ -5,6 +5,8 @@ const OpenAI = require('openai');
 const app = express();
 const PORT = 8080;
 
+//test
+
 app.use(bodyParser.json());
 
 const openai = new OpenAI(process.env.OPENAI_API_KEY);
